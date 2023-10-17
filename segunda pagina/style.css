@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Righteous&display=swap');
+ 
+.conteudo{
+  display: none;
+ margin: initial;
+} 
+
+body{
+  margin: initial;
+  background: radial-gradient(
+    circle at top right,
+    #750175,
+    #000000 50%
+  );
+  padding: initial;
+}
+.titulo,.cards{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+
+.titulo{
+  text-transform: uppercase;
+  padding: 20% 0px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#titulo1{
+  font-family: 'Righteous', sans-serif;
+font-size: 60px;
+}
+
+#titulo2{
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-top: -30px;
+  font-weight: 600;
+}
+
+.cards{
+  margin-top: 35px;
+}
+
+.card{
+  cursor:pointer;
+  background-image: linear-gradient(to top, #860086, #c100c1);
+  border-radius: 100px;
+  width: 50%;  
+  height: max-content;
+  margin: 30px auto;
+  transition: all 0.2s;
+
+}
+
+.card:hover{
+  border: 2px solid #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.topico{
+  padding: 20px 50px;
+}
+
+h4{
+  font-size: small;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.rodape{
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:unset;
+  padding-right:unset;
+  margin: initial;
+}
+
+#botao{
+  text-decoration: none;
+  color: #750175;
+  font-weight: 700;
+  border: 2px solid #750175;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: all 0.15s;
+}
+
+#botao:hover{
+  color: #ffffff;
+  background-color: #750175;
+}
+
+.card:hover .conteudo{
+display: block;
+width: auto;
+height: auto;
+padding: 10px 30px;
+margin: 8px;
+}
